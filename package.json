@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/ryanramage/docker-build-run-push/issues"
   },
-  "homepage": "https://github.com/ryanramage/docker-build-run-push"
+  "homepage": "https://github.com/ryanramage/docker-build-run-push",
+  "publishConfig": {
+    "registry":
+      "http://sonatype-nexus.livetex.ru/nexus/content/repositories/livetex-npm-new/"
+  }
 }
