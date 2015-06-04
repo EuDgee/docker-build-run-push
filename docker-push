@@ -1,7 +1,7 @@
 #/bin/bash
 
 VERSION=$(node -e "console.log(require('./package.json').version)")
-NAME=$(node -e "console.log(require('./package.json').name)")
+NAME=service/$(node -e "console.log(require('./package.json').name)")
 REGISTRY=$(node -e "console.log(require('./package.json')['docker-registry'])")
 
 echo "$VERSION"
